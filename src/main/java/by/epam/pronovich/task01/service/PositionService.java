@@ -1,9 +1,8 @@
-package main.java.by.epam.pronovich.service;
+package main.java.by.epam.pronovich.task01.service;
 
-import main.java.by.epam.pronovich.entity.Company;
-import main.java.by.epam.pronovich.entity.Level;
-import main.java.by.epam.pronovich.entity.Position;
-import main.java.by.epam.pronovich.entity.Post;
+import main.java.by.epam.pronovich.task01.entity.Company;
+import main.java.by.epam.pronovich.task01.entity.Level;
+import main.java.by.epam.pronovich.task01.entity.Position;
 
 public class PositionService {
 

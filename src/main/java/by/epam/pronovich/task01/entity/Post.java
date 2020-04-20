@@ -1,4 +1,4 @@
-package main.java.by.epam.pronovich.entity;
+package main.java.by.epam.pronovich.task01.entity;
 
 public enum Post {
 

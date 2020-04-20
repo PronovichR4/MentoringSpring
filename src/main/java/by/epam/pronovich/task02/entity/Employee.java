@@ -1,9 +1,11 @@
-package main.java.by.epam.pronovich.entity;
+package main.java.by.epam.pronovich.task02.entity;
 
+
+import org.springframework.stereotype.Component;
 
 import java.util.Objects;
 
-
+@Component
 public class Employee {
 
     private String name;

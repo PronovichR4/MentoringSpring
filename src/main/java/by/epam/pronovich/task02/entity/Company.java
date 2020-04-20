@@ -1,8 +1,11 @@
-package main.java.by.epam.pronovich.entity;
+package main.java.by.epam.pronovich.task02.entity;
+
+import org.springframework.stereotype.Component;
 
 import java.util.LinkedList;
 import java.util.List;
 
+@Component()
 public class Company {
 
     private String name;
@@ -11,6 +14,7 @@ public class Company {
 
     public Company() {
     }
+
 
     public String getName() {
         return name;

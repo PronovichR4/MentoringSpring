@@ -1,10 +1,10 @@
-package main.java.by.epam.pronovich.entity;
+package main.java.by.epam.pronovich.task01.entity;
 
 import java.util.Objects;
 
 public class Position {
 
-    private main.java.by.epam.pronovich.entity.Post post;
+    private Post post;
     private Level level;
     private boolean available = true;
     private Employee employee;

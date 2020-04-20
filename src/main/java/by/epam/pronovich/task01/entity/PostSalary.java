@@ -1,9 +1,9 @@
-package main.java.by.epam.pronovich.entity;
+package main.java.by.epam.pronovich.task01.entity;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static main.java.by.epam.pronovich.entity.Post.*;
+import static main.java.by.epam.pronovich.task01.entity.Post.*;
 
 public final class PostSalary {
 

@@ -6,7 +6,7 @@
 
 
 
-   <bean id="salary" class="main.java.by.epam.pronovich.entity.Salary">
+   <bean id="salary" class="main.java.by.epam.pronovich.task01.entity.Salary">
        <constructor-arg value="520"/>
    </bean>
 

@@ -8,7 +8,7 @@
     <import resource="Salary.xml"/>
 
 
-    <bean id="javaJun" class="main.java.by.epam.pronovich.entity.Position">
+    <bean id="javaJun" class="main.java.by.epam.pronovich.task01.entity.Position">
         <property name="post" ref="posJava"/>
         <property name="level" value="MIDDLE"/>
         <property name="employee" ref="employee"/>
@@ -16,7 +16,7 @@
     </bean>
 
 
-    <bean id="posJava" class="main.java.by.epam.pronovich.entity.Post" factory-method="valueOf">
+    <bean id="posJava" class="main.java.by.epam.pronovich.task01.entity.Post" factory-method="valueOf">
         <constructor-arg value="JAVA_DEVELOPER"/>
 
     </bean>

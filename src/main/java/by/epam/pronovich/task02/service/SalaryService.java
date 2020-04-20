@@ -1,11 +1,24 @@
-package main.java.by.epam.pronovich.service;
+package main.java.by.epam.pronovich.task02.service;
 
-import main.java.by.epam.pronovich.entity.*;
+
+import main.java.by.epam.pronovich.task02.entity.Currency;
+import main.java.by.epam.pronovich.task02.entity.ExperiencePremium;
+import main.java.by.epam.pronovich.task02.entity.LevelPremium;
+import main.java.by.epam.pronovich.task02.entity.Position;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 import java.util.Set;
 
+
+@Component
 public class SalaryService {
 
+    @Autowired
     private Currency currency;
+
+    public SalaryService() {
+    }
 
     public SalaryService(Currency currency) {
         this.currency = currency;
@@ -18,6 +31,10 @@ public class SalaryService {
         double salary = v + sizeBasicSalary;
         return salary;
 
+    }
+
+    public void setCurrency(Currency currency) {
+        this.currency = currency;
     }
 
     private int calculateLevelPremiumProc(Position position) {

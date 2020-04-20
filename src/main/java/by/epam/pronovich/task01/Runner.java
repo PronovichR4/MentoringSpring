@@ -1,12 +1,12 @@
-package main.java.by.epam.pronovich;
+package main.java.by.epam.pronovich.task01;
 
-import main.java.by.epam.pronovich.entity.*;
-import main.java.by.epam.pronovich.service.EmployeeService;
-import main.java.by.epam.pronovich.service.PositionService;
-import main.java.by.epam.pronovich.service.SalaryService;
+import main.java.by.epam.pronovich.task01.service.EmployeeService;
+import main.java.by.epam.pronovich.task01.service.PositionService;
+import main.java.by.epam.pronovich.task01.service.SalaryService;
+import main.java.by.epam.pronovich.task01.entity.Position;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import static main.java.by.epam.pronovich.entity.Level.SENIOR;
+import static main.java.by.epam.pronovich.task01.entity.Level.SENIOR;
 
 public class Runner {
 

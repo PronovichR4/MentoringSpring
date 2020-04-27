@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   		http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+	   		http://www.springframework.org/schema/context
+	   		https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="main.java.by.epam.pronovich.homework02.task02.part2"/>
+
+    <bean id="employeeFactory" class="main.java.by.epam.pronovich.homework02.task02.part2.EmployeeFactory"/>
+
+    <bean id="employee" class="main.java.by.epam.pronovich.homework02.task02.entity.Employee" init-method="init"
+          destroy-method="destroy" factory-method="getInstance"/>
+
+    <bean id="secondEmpl" class="main.java.by.epam.pronovich.homework02.task02.entity.Employee"
+          factory-bean="employeeFactory"
+          factory-method="createInstance"/>
+
+    <bean id="position" class="main.java.by.epam.pronovich.homework02.task02.part2.PositionFactory">
+        <property name="skill" value="JAVA_DEVELOPER"/>
+        <property name="level" value="JUNIOR"/>
+    </bean>
+
+    <bean id="positionWithMap" class="main.java.by.epam.pronovich.homework02.task02.entity.Position">
+        <property name="skills">
+        <map>
+            <entry key="JAVA_DEVELOPER" value="JUNIOR"/>
+            <entry key="DOTNET_DEVELOPER" value="JUNIOR"/>
+        </map>
+        </property>
+        <property name="salary">
+            <bean class="main.java.by.epam.pronovich.homework02.task02.entity.Salary">
+                <property name="sizeBasicSalary" value="500"/>
+            </bean>
+        </property>
+    </bean>
+
+
+</beans>

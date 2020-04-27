@@ -1,0 +1,8 @@
+Initialization
+BeanA(className=Let's test This, number=1107)
+BeanB(className=This class is beanB, beanA=BeanA(className=Let's test This, number=1107))
+BeanC(beanD=BeanD(clasName=First))
+false
+BeanE(name=TestName)
+This method was replaced
+BeanF(name=BeanF test value)

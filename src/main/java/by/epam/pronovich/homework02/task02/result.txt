@@ -1,0 +1,17 @@
+Initialization
+Position(skills={JAVA_DEVELOPER=JUNIOR, DOTNET_DEVELOPER=JUNIOR}, available=true, employee=null, salary=Salary(sizeBasicSalary=500))
+Position(skills={JAVA_DEVELOPER=JUNIOR, DOTNET_DEVELOPER=JUNIOR}, available=false, employee=Employee(name=Volodya, age=25, experienceMonth=0), salary=Salary(sizeBasicSalary=500))
+Зарлата за 1 месяц составила 550.0
+Зарлата за 2 месяц составила 550.0
+Зарлата за 3 месяц составила 550.0
+Зарлата за 4 месяц составила 550.0
+Зарлата за 5 месяц составила 550.0
+Зарлата за 6 месяц составила 575.0
+Зарлата за 7 месяц составила 600.0
+Зарлата за 8 месяц составила 600.0
+Зарлата за 9 месяц составила 600.0
+Зарлата за 10 месяц составила 600.0
+Зарлата за 11 месяц составила 600.0
+Зарлата за 12 месяц составила 600.0
+Зарлата за 13 месяц составила 625.0
+Зарлата за 14 месяц составила 625.0
